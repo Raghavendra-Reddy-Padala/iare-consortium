@@ -77,7 +77,7 @@ const Footer = () => {
       {/* Copyrights */}
       <div className="flex justify-center px-4">
         <p className="text-[0.9375rem] pb-2 text-center">
-          Copyright © 2022 GDG & WTM Algiers . All Rights Reserved.
+          Copyright © 2025 IARE CONSORTIUM. All Rights Reserved.
         </p>
       </div>
 
