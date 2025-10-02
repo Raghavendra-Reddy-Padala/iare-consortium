@@ -43,13 +43,13 @@ const AboutUsPage = () => {
       {/* Main About Sections */}
       <div className="relative about-bg py-16">
         <div className="absolute top-1/4 right-4 lg:w-[55px] h-[32px] w-[32px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-          <Image src={globe} layout="fill" />
+          <Image src={globe} layout="fill" alt="Decorative globe" />
         </div>
         <div className="absolute bottom-8 left-4 w-[32px] h-[32px] md:w-[40px] md:h-[40px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-          <Image src={globe} layout="fill" />
+          <Image src={globe} layout="fill" alt="Decorative globe" />
         </div>
         <div className="absolute bottom-1/2 left-8 w-[75px] h-[53px] md:w-[40px] md:h-[40px] lg:w-[106px] lg:h-[76px] 2xl:w-[160px] 2xl:h-[112px]">
-          <Image src={maqam} layout="fill" />
+          <Image src={maqam} layout="fill" alt="Decorative shape" />
         </div>
 
         <div className="w-10/12 mx-auto flex flex-col gap-8">
@@ -84,10 +84,10 @@ const AboutUsPage = () => {
       {/* Faculty Board */}
       <section className="relative about-bg py-16">
         <div className="absolute top-16 right-12 w-[50px] h-[50px] lg:w-[82px] lg:h-[82px]">
-          <Image src={atom} layout="fill" />
+          <Image src={atom} layout="fill" alt="Decorative atom" />
         </div>
         <div className="absolute bottom-16 left-12 w-[50px] h-[50px] lg:w-[82px] lg:h-[82px]">
-          <Image src={globe} layout="fill" />
+          <Image src={globe} layout="fill" alt="Decorative globe" />
         </div>
 
         <div className="w-10/12 mx-auto">
@@ -111,10 +111,10 @@ const AboutUsPage = () => {
       <section className="section-container py-16">
         <div className="relative">
           <div className="absolute top-0 left-8 w-[106px] h-[76px]">
-            <Image src={maqam} layout="fill" />
+            <Image src={maqam} layout="fill" alt="Decorative shape" />
           </div>
           <div className="absolute bottom-0 right-8 w-[55px] h-[55px]">
-            <Image src={computer} layout="fill" />
+            <Image src={computer} layout="fill" alt="Decorative computer" />
           </div>
         </div>
 
@@ -137,10 +137,10 @@ const AboutUsPage = () => {
       {/* Vision & Mission */}
       <section className="relative hero-bg py-16">
         <div className="absolute top-8 left-8 w-[50px] h-[50px]">
-          <Image src={atom} layout="fill" />
+          <Image src={atom} layout="fill" alt="Decorative atom" />
         </div>
         <div className="absolute bottom-8 right-8 w-[50px] h-[50px]">
-          <Image src={globe} layout="fill" />
+          <Image src={globe} layout="fill" alt="Decorative globe" />
         </div>
 
         <div className="w-10/12 mx-auto">
@@ -150,7 +150,7 @@ const AboutUsPage = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border-2 border-white/20">
               <h3 className="text-3xl font-bold text-qiskit-yellow mb-4">🎯 Our Vision</h3>
               <p className="text-lg text-white leading-relaxed">
-                To establish IARE Consortium as India's premier technical fest, fostering innovation, collaboration, and excellence in engineering education. We envision creating a platform where young minds explore cutting-edge technologies and transform ideas into reality.
+                To establish IARE Consortium as India&apos;s premier technical fest, fostering innovation, collaboration, and excellence in engineering education. We envision creating a platform where young minds explore cutting-edge technologies and transform ideas into reality.
               </p>
             </div>
             
